@@ -1,0 +1,28 @@
+sfts/
+├── bin/                 # Compiled executables will go here
+├── scanner/
+│   └── port_scanner.cpp # C++ Port Scanner
+├── recon/
+│   ├── web_recon.go     # Go Recon Tool
+│   └── go.mod           # Go module file
+├── fuzzer/
+│   ├── src/
+│   │   └── main.rs      # Rust HTTP Fuzzer
+│   └── Cargo.toml       # Rust dependencies
+├── orchestrator.py      # Main Python Logic
+└── build.sh             # Automation script
+
+
+Key Features Implemented:
+
+C++ Port Scanner: Fast, multi-threaded TCP port scanning
+
+Rust HTTP Fuzzer: Async directory and parameter fuzzing with payload testing
+
+Go Recon Tool: Subdomain enumeration, technology fingerprinting, sensitive info discovery
+
+Modular Design: Each component can be used independently
+
+Safety Features: Timeouts, connection limits, error handling
+
+sh build.sh
