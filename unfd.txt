@@ -1,0 +1,1 @@
+choco uninstall mingw rust go python git -y
